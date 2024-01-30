@@ -1,0 +1,11 @@
+import pandas
+
+file = pandas.read_csv("country_data.csv")
+
+print(file)
+
+# define df
+df = pandas.read_csv("country_data.csv")
+print(df.describe())
+
+
